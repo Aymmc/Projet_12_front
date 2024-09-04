@@ -5,8 +5,11 @@ import AppRouter from './AppRouter.jsx'
 function App() {
   return (
     <>
+    
     <Header />
+    <main>
     <AppRouter />
+    </main>
     </>
   );
 }

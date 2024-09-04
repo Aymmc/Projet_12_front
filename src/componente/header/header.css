@@ -1,0 +1,35 @@
+header a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+
+}
+
+header {
+    height: 91px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 149px;
+    justify-content: space-between;
+}
+
+header img {
+    width: 178px;
+    height: 60.93px;
+    margin-left: 29px;
+
+
+}
+
+header .logo {
+    display: flex;
+
+}
+
+header .menu {
+    display: flex;
+    gap: 200px;
+    margin-right: 91px;
+
+}
