@@ -1,0 +1,21 @@
+.recharts-layer {
+    color: #9B9EAC;
+}
+.CustomLegend {
+    margin-bottom: 64px;
+}
+.custom-tooltip-Activity{
+    background-color: red;
+    margin: 6px;
+}
+.custom-tooltip-Activity p {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 342.857% */
+    margin: 6px;
+} 

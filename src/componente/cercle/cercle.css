@@ -1,0 +1,28 @@
+.CercleCharts .recharts-wrapper {
+    margin-top: 24px;
+}
+
+.CustomLegendCercle h3 {
+    font-size: 15px;
+}
+
+.CercleCharts .Score {
+    color: #282D30;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 100% */
+}
+
+.CercleCharts .objectif {
+    color: #74798C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}

@@ -3,9 +3,11 @@
     background-color: #FBFBFB;
     width: 258px;
     height: 124px;
-    justify-content: center;
+  padding-left: 32px;
     align-items: center;
     gap: 24px;
+    margin-bottom: 39px;
+    border-radius: 5px;
 }
 .block_p {
     display: flex;

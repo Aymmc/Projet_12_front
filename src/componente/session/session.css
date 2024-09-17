@@ -1,0 +1,29 @@
+.CustomLegendSession{
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 160% */
+}
+.recharts-cartesian-axis-tick-line {
+    display: none;
+}
+.recharts-cartesian-axis , .recharts-xAxis{
+    margin-bottom: 20px;
+}
+.custom-tooltip{
+    background-color: #FFF;
+}
+.custom-tooltip .intro {
+    margin: 7px;
+    color: #000;
+
+text-align: center;
+font-family: Roboto;
+font-size: 8px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 300% */
+}
