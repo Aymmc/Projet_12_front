@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import UserDataLoader from './UserDataLoader'; // Importer le nouveau composant
-import SideBar from '../../componente/sidebarre/sidebarre';
+// import SideBar from '../../componente/sidebarre/sidebarre';
 import Barreleft from '../../componente/barreleft/barreleft'
 import CaloriePoidsChart from '../../componente/activity/activity';
 import SessionCharts from '../../componente/session/session';
@@ -14,7 +14,7 @@ function Home() {
     
     return (
         <>
-        <SideBar/>
+        {/* <SideBar/> */}
         <div className='home'>
             <UserDataLoader setUserData={setUserData} />
             
@@ -41,7 +41,9 @@ function Home() {
                     </div>
                  
                         </div>
+                        <div className='Barreleft'>
                        <Barreleft/>
+                       </div>
                     </div>
                     
                 </>

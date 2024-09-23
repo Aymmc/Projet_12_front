@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import UserSessionLoader from "../activity/UserSessionLoader";
+import UserSessionLoader from "./UserSessionLoader";
 import {
   LineChart,
   Line,

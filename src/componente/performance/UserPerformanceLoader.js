@@ -14,9 +14,6 @@ const UserDataLoader = ({ setUserData }) => {
                 // Fusionne les données de response et response.data
                 const data = response && response.data ? { ...response, ...response.data } : response;
 
-                // Log pour voir ce qui est renvoyé
-                console.log("Data used:", data);
-
                 setUserData(data);
             } catch (err) {
                 console.error('Error fetching user data:', err);

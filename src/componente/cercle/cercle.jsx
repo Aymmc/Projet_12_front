@@ -6,11 +6,12 @@ import "./cercle.css";
 const CercleCharts = () => {
   const [userData, setUserData] = useState(null);
   // Préparation des données pour le PieChart
+  const score = userData ? userData.todayScore ?? userData.score : 0;
   const data = [
-    { name: "Score", value: userData ? userData.todayScore * 100 : 0 }, // Multiplier par 100 pour obtenir un pourcentage
+    { name: "Score", value: score  * 100 }, // Multiplier par 100 pour obtenir un pourcentage
     {
       name: "Restant",
-      value: userData ? (1 - userData.todayScore) * 100 : 100,
+      value: userData ? (1 - score ) * 100 : 100,
     },
   ];
   const CustomLegend = () => (
@@ -44,6 +45,7 @@ const CercleCharts = () => {
               align="center"
             />
             <Pie
+          //  cornerRadius={50}
               data={data}
               cx="50%"
               cy="50%"
@@ -53,10 +55,11 @@ const CercleCharts = () => {
               stroke="#Ff0104"
               dataKey="value"
               startAngle={90}
-              endAngle={90 - 360 * userData.todayScore}
+              endAngle={90 - 360 * score}
             />
 
             <Pie
+     
               data={[{ name: "Remplissage intérieur", value: 1 }]}
               cx="50%"
               cy="50%"
@@ -74,7 +77,7 @@ const CercleCharts = () => {
                 fontSize="16"
                 fill="#000"
               >
-                {`${userData.todayScore * 100}% `}
+                {`${score * 100}% `}
               </text>
               <text
               className="objectif" // Classe pour le texte supplémentaire

@@ -85,3 +85,23 @@
     height: 263px;
     border-radius: 5px;
 }
+@media screen and (max-width: 1385px) { 
+
+    .home{
+        margin-left: 134px;
+    }
+}
+@media screen and (max-width: 1307px) { 
+    .block1 {
+        flex-direction: column-reverse;
+    }
+   .Barreleft ul {
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+   
+}
+.copiryght{
+    position: absolute;
+    bottom: 158px;
+}

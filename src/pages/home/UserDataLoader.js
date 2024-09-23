@@ -10,7 +10,7 @@ const UserDataLoader = ({ setUserData }) => {
         async function getUserData() {
             try {
                 const response = await fetchUserData(userIdNumber);
-                console.log('Fetched data:', response); // Log la réponse
+                // console.log('Fetched data:', response); // Log la réponse
                 
                 // Vérifie si la réponse contient les données au bon format
                 if (response && response.userInfos) {
@@ -23,8 +23,8 @@ const UserDataLoader = ({ setUserData }) => {
             } catch (err) {
                 console.error('Error fetching user data:', err); // Log l'erreur
                 // Ici tu peux ajouter un fallback pour utiliser des données locales
-                const localData = {}; // Remplace par tes données locales
-                setUserData(localData);
+                // const localData = {}; // Remplace par tes données locales
+                // setUserData(localData);
             }   
         }
         getUserData();

@@ -34,7 +34,7 @@ export async function fetchUserData(userId) {
         }
     }
 
-    console.log("User Data Found from server:", userData);
+    // console.log("User Data Found from server:", userData);
     return userData; // Retourne les données de l'utilisateur
 }
 
@@ -54,7 +54,7 @@ export async function fetchUserActivity(userId) {
         }
     }
 
-    console.log("User Activity Found from server:", userActivity);
+    // console.log("User Activity Found from server:", userActivity);
     return userActivity; // Retourne les données d'activité
 }
 
@@ -74,7 +74,7 @@ export async function fetchUserAverageSessions(userId) {
         }
     }
 
-    console.log("User Average Sessions Found from server:", userAverageSessions);
+    // console.log("User Average Sessions Found from server:", userAverageSessions);
     return userAverageSessions; // Retourne les données des sessions moyennes
 }
 

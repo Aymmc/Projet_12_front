@@ -14,7 +14,6 @@ const PerformanceCharts = () => {
 
   const handleSetUserData = (data) => {
     setUserData(data);
-    console.log("Données utilisateur:", data); // Vérifie les données ici
   };
 
   // Transformation des données pour le RadarChart
@@ -25,8 +24,7 @@ const PerformanceCharts = () => {
           A: item.value, // Valeur à tracer
         }))
       : [];
-  console.log(chartData);
-
+      
   return (
     <>
       <UserPerformanceLoader setUserData={handleSetUserData} />
