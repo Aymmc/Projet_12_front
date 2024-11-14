@@ -5,10 +5,13 @@ import icone_nage from './icon_nage.png';
 import icone_haltere from './icon_haltere.png'
 
 import './sidebarre.css'
+import Lobby from '../../pages/lobby/lobby';
+
 function SideBarre() {
   return (
 <>
 <div className="sidebar">
+  {/* <Lobby/> */}
     <div className='icone'>
         <a href="#home" className="sidebar-icon"><img src={icone} alt="" /></a>
         <a href="#services"className="sidebar-icon"><img src={icone_nage} alt="" /></a>
