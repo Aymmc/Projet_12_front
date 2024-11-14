@@ -23,7 +23,7 @@ function Home() {
     <>
       {/* <SideBar/> */}
       <div className="home">
-        <Lobby />
+        {/* <Lobby /> */}
 
         {/* Si userData est disponible */}
         {userData ? (
